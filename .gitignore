@@ -1,15 +1,11 @@
-.env
-.env.*
-!.env.example
-node_modules/
-.venv/
-__pycache__/
-target/
-dist/
-build/
-*.log
-.claude/
-.cc-workbench/
-轨迹/
-录屏/
-视频/
+# Rust
+backend/target/
+backend/data/
+
+# Node / 前端
+frontend/node_modules/
+frontend/dist/
+
+# SQLite 运行时文件
+*.db-wal
+*.db-shm
